@@ -4,8 +4,8 @@ This is a tiny app to forward Electron breakpad errors to Sentry. It's the easie
 
 ## Setup
 
-1. [![Deploy it on Heroku!](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy).
-2. Set the SENTRY_DSN environment variable to the value of the Sentry project you're using.
+1. [![Deploy it on Heroku!](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+2. Set the `SENTRY_DSN` environment variable to the value of the Sentry project you're using.
 3. Set up your electron project to forward errors to this app. Usually something like this should be enough:
 ```
 const { app, crashReporter } = require('electron');
