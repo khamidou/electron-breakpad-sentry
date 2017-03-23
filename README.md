@@ -1,6 +1,6 @@
 # electron-breakpad-sentry
 
-This is a tiny app to forward Electron breakpad errors to Sentry. It's the easiest way to process and store Electron crashes data.
+This is a tiny app to forward Electron breakpad errors to Sentry. It's the easiest way to get crash reports from an Electron app!
 
 ## Setup
 
