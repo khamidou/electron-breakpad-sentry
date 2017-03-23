@@ -1,6 +1,6 @@
-# heroku-breakpad-sentry
+# electron-breakpad-sentry
 
-This is a tiny app to forward Electron breakpad errors to Sentry. It uses Heroku because it's great for low-key services like this one which run in the background.
+This is a tiny app to forward Electron breakpad errors to Sentry. It's the easiest way to process and store Electron crashes data. [![Deploy it on Heroku!](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy).
 
 ## Setup
 
