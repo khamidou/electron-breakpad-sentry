@@ -31,6 +31,7 @@ post '/crashreport' do
     end
 
     SentryBreakpad.send_from_string(res)
+    puts "reported to sentry"
   ensure
     tmpfile.close
     tmpfile.unlink
