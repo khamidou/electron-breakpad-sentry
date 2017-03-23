@@ -1,0 +1,6 @@
+{
+  "name": "electron-breakpad-sentry",
+  "description": "A simple app to forward breakpad crash reports to a Sentry server.",
+  "repository": "https://github.com/khamidou/electron-breakpad-sentry",
+  "keywords": ["breakpad", "sentry", "crashreports"]
+}
