@@ -20,6 +20,6 @@ app.on('ready', () => {
 ```
 4. Profit!
 
-## Bug, remarks, questions?
+## Reporting bugs
 
-If you've found any bug, please let me know by opening a new issue.
+If you've found any bug, please let me know by [opening a new issue](https://github.com/khamidou/electron-breakpad-sentry/issues).

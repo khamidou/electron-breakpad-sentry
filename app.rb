@@ -2,10 +2,11 @@ require 'os'
 require 'sinatra'
 require 'sentry_breakpad'
 require 'raven'
+require 'rdiscount'
 
 
 get '/' do
-  "heroku-breakpad-sentry is a simple breakpad server which forwards data to sentry. It's very easy to deploy to heroku."
+  markdown File.read("./README.md")
 end
 
 

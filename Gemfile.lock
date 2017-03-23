@@ -8,6 +8,7 @@ GEM
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
+    rdiscount (2.2.0.1)
     sentry-raven (2.2.0)
       faraday (>= 0.7.6, < 1.0)
     sentry_breakpad (0.1.10)
@@ -23,5 +24,6 @@ PLATFORMS
 
 DEPENDENCIES
   os (~> 1.0.0)
+  rdiscount (~> 2.2.0.1)
   sentry_breakpad (~> 0.1.10)
   sinatra (~> 1.4.7)
